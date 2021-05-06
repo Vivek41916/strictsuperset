@@ -1,0 +1,7 @@
+s=set(map(int,input().split()))
+f=True
+for i in range(int(input())):
+    s1=set(map(int,input().split()))
+    if((s1-s)!=set()):
+        f=False
+print(f)
